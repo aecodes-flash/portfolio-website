@@ -1,0 +1,46 @@
+/* ============================================
+    animations.css
+    All @keyframes used across the portfolio
+   ============================================ */
+
+/* ── FADE UP ─────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── SKILL BAR GROW ──────────────────────────── */
+@keyframes grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* ── TYPING ──────────────────────────────────── */
+@keyframes typing {
+  from { width: 0; }
+  to   { width: 14ch; }
+}
+
+/* ── CURSOR BLINK ────────────────────────────── */
+@keyframes blink {
+  0%, 100% { border-right-color: var(--accent); }
+  50%       { border-right-color: transparent; }
+}
+
+/* ── NAVBAR DROP DOWN ── */
+@keyframes navDrop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* ── LINK GLOW PULSE ── */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(0, 148, 90, 0.4); }
+  50%       { box-shadow: 0 0 16px rgba(0, 148, 90, 0.8); }
+}
