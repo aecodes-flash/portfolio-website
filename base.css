@@ -73,7 +73,8 @@ html {
 }
 
 body {
-  background: var(--bg);
+  background: radial-gradient(ellipse at top left,    rgba(0, 50, 120, 0.10) 0%, transparent 50%),
+  radial-gradient(ellipse at bottom right, rgba(0, 148, 90, 0.12) 0%, transparent 55%), #0a0a0a;
   color: var(--text);
   font-family: 'DM Sans', sans-serif;
   line-height: 1.7;
